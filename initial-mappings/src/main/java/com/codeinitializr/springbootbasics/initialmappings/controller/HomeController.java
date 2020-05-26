@@ -5,9 +5,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-/**
- * HomeController
- */
 @Controller
 public class HomeController {
 
@@ -16,14 +13,6 @@ public class HomeController {
         ModelAndView mv = new ModelAndView();
         mv.addObject("message", "This is the index page.");
         mv.setViewName("index");
-        return mv;
-    }
-
-    @RequestMapping(value = "/submit", method = RequestMethod.POST)
-    public ModelAndView submit() {
-        ModelAndView mv = new ModelAndView();
-        mv.addObject("message", "This is the form submission successfull page.");
-        mv.setViewName("submit");
         return mv;
     }
 

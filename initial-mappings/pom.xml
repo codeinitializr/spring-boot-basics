@@ -11,9 +11,8 @@
 	<groupId>com.codeinitializr.springbootbasics</groupId>
 	<artifactId>initial-mappings</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 	<name>initial-mappings</name>
-	<description>Initial mappings</description>
+	<description>Demo project for Spring Boot initial mappings by codeinitializr</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -34,11 +33,6 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
